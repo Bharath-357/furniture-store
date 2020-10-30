@@ -1,0 +1,167 @@
+<html>
+<head>
+    <title>Furniture store</title>
+    <link rel="stylesheet" href="style.css" >
+    <meta name="viewport"content="width=device-width,intial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Nunito+Sans:wght@600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+
+
+</head>
+<body>
+<section id="banner">
+
+    <div class ="banner-text">
+        <h1>Furniture Store</h1>
+        <p>Design your own way</p>
+        <div class="banner-btn">
+            <a href="#"><span></span>Find Out</a>
+            <a href="#"><span></span>Read More</a>
+            
+
+
+        </div>
+    </div>
+    
+</section>
+<div id="sideNav">
+    <nav>
+    <ul>
+        <li><a href="#banner">HOME</a></li>
+        <li><a href="#feature">SERVICES</a></li>
+        <li><a href="#produt">PRODUCTS</a></li>
+        <li><a href="#footer">HELP</a></li>
+
+    </ul>    
+    </nav>
+</div>
+<div id="manuBtn">
+    <img src="images/home.png">
+
+</div>
+<script>
+var menuBtn = document.getElementById("menuBtn")
+var menuBtn = document.getElementById("sideNav")
+var menuBtn = document.getElementById("menu")
+
+menuBtbn.onclick= function(){
+    if(sideNav.style.right=="-250px"){
+        sideNav.style.right="0";
+    }
+    else{
+        sideNav.style.right="-250px";
+    }
+}
+
+
+</script>
+<!--Features-->
+<section id= "feature">
+<div class = "title-text">
+<p>SERVICES</p>
+<h1>We Provide Better</h1>
+</div>
+<div class="features">
+    <h1>Quality Produts</h1>
+    <div class="features-desc">
+        <div class="feature-text"></div>
+        <p>Modern furniture is angular and very artistic. Contemporary design shares the same clean lines but is more functional, less artistic,
+             and has a softer look and feel.</p>
+    </div>
+</div>
+<h1>Stylish</h1>
+<div class="features-desc">
+    <div class="feature-text"></div>
+    <p> The classic neutral palette remains in style, but take it up a notch by incorporating texture and subtle patterns. Industrial-inspired designs, leather upholstery, dark wood, denim, and textured fabrics add variety and visual interest to new furniture. Try these looks in the living room or dining room, or bring it into the bedroom for a bold refresh.
+
+    </p>
+</div>
+</div>
+<h1>Comfortable</h1>
+<div class="features-desc">
+    <div class="feature-text"></div>
+    <p>Contemporary design shares the same clean lines but is more functional, less artistic, and has a softer look and feel. Contemporary design is an updated traditional look with a slight midcentury modern influence.very comfortable.</p>
+</div>
+</div>
+
+
+</section>
+
+<!--products-->
+<section id="produt">
+    <div class = "title-text">
+        <p>PRODUCTS</p>
+        <h1>We Have</h1>
+        </div>
+        <div  class="product-box">
+            <div class="tables">
+               <img src="images/image7.jpg">
+               <div class="product-desc">
+               <h3> Office Table</h3>
+               <hr>
+               <p>Can use for office work </p>
+            </div>
+            </div>
+            <div class="tables">
+                <img src="images/image12.jpg">
+                <h3>Table</h3>
+                <hr>
+                <p>Comfotable for using meetings </p>
+
+            </div>
+            <div class="table">
+                <img src="images/image6.jpg">
+                <h3> Table</h3>
+                <hr>
+                <p>Comfortable for using breakouts</p>
+
+            </div>
+            <div class="chair">
+                <img src="images/image8.jpg">
+                <h3> chair</h3>
+                <hr>
+                <p>Comfortable for sitting </p>
+
+            </div>
+        </div>
+  </section>
+
+  <!--footer-->
+
+  <section id="footer">
+       <div class ="title text">
+           <p>HELP</p>
+           <h1>contact us</h1>
+       </div>
+
+<div class="footer-row">
+<div class="footer-left">
+    <h1>Opening Hours</h1>
+    <p> Monday to Friday- 9AM to 9PM</p>
+    <p>Saturday and Sunday- 8AM to 11PM</p>
+</div>
+<div class="footer-right">
+    <h1>Get In Touch</h1>
+    <p>#XYZ colony, ABC city</p>
+    <p>example@website.com</p>
+    <p>+01 123456789</p>
+ </div>
+</div>
+<div class="social-links">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-youtube-play"></i>
+
+</div>
+  </section>
+  // All animations will take exactly 500ms
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 500,
+	speedAsDuration: true
+});
+
+
+</body>
+</html>
